@@ -153,8 +153,9 @@ http://localhost/phpmyadmin
 
 Create a new database named:
 
-```sql
-CREATE DATABASE hotel_management;
+hotel.sqlsql
+
+CREATE DATABASE hotel.sql;
 ```
 
 If your repository includes a database export file, such as `hotel_management.sql`, import it into the newly created database using phpMyAdmin's **Import** feature.
@@ -261,7 +262,7 @@ hotel-management-system/
 │   └── images/
 │
 ├── database/
-│   └── hotel_management.sql
+│   └── hotel.sql
 │
 ├── README.md
 └── .gitignore
